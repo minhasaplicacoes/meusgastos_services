@@ -1,12 +1,12 @@
-var app = require('./src/config/custom-express')();
+const container = require('./src/container');
 
+const app = container.resolve('app');
 
-//Important: use process.env.PORT as the port and process.env.IP as the host in your scripts!
-//Important: use process.env.PORT as the port and process.env.IP as the host in your scripts!
-app.listen(process.env.PORT, process.env.IP, 1, () => {
-  console.log('Servidor rodando na porta: '+ process.env.PORT);
-});
-
-
+app
+  .start()
+  .catch((error) => {
+    app.logger.error(error.stack);
+    process.exit();
+  });
 
 // *******************************************************

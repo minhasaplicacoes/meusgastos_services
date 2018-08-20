@@ -1,0 +1,459 @@
+[2018-08-17T14:02:21.148] [DEBUG] app - [p 12747] Listening at port 8080
+[2018-08-17T14:05:57.159] [DEBUG] default - [p 12769] Listening at port 8080
+[2018-08-17T14:13:47.614] [DEBUG] default - [p 13810] Listening at port 8080
+[2018-08-17T20:10:11.903] [DEBUG] default - [p 2644] Listening at port 8080
+[2018-08-17T20:10:53.218] [DEBUG] default - [p 2766] Listening at port 8080
+[2018-08-17T20:29:06.585] [DEBUG] default - [p 2909] Listening at port 8080
+[2018-08-17T20:36:16.784] [DEBUG] default - [p 3935] Listening at port 8080
+[2018-08-17T20:36:56.475] [DEBUG] default - [p 3960] Listening at port 8080
+[2018-08-17T20:36:58.556] [DEBUG] default - [p 3974] Listening at port 8080
+[2018-08-18T17:18:16.358] [DEBUG] default - [p 7634] Listening at port 8080
+[2018-08-18T17:18:37.797] [INFO] default - [0mGET /favicon.ico [33m404 [0m5.022 ms - 150[0m
+[2018-08-18T17:18:40.985] [INFO] default - [0mGET / [33m404 [0m0.643 ms - 139[0m
+[2018-08-18T17:18:50.396] [INFO] default - [0mGET /api/ [33m404 [0m3.043 ms - 143[0m
+[2018-08-18T17:18:56.421] [INFO] default - [0mGET /api/user [33m404 [0m0.856 ms - 147[0m
+[2018-08-18T17:19:36.030] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-18T17:19:36.041] [INFO] default - [0mGET /api/users/ [31m500 [0m7.883 ms - -[0m
+[2018-08-19T02:53:55.582] [INFO] default - [0mGET /favicon.ico [33m404 [0m1.296 ms - 150[0m
+[2018-08-19T02:53:55.632] [INFO] default - [0mGET /favicon.ico [33m404 [0m0.381 ms - 150[0m
+[2018-08-19T02:56:11.322] [DEBUG] default - [p 9820] Listening at port 8080
+[2018-08-20T14:48:18.122] [DEBUG] default - [p 11325] Listening at port 8080
+[2018-08-20T14:51:41.478] [INFO] default - [0mGET / [33m404 [0m4.864 ms - 139[0m
+[2018-08-20T14:51:42.161] [INFO] default - [0mGET / [33m404 [0m0.603 ms - 139[0m
+[2018-08-20T14:51:53.948] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T14:51:53.961] [INFO] default - [0mGET /api/users [31m500 [0m11.003 ms - -[0m
+[2018-08-20T14:52:34.785] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T14:52:34.788] [INFO] default - [0mGET /api/users [31m500 [0m1.830 ms - -[0m
+[2018-08-20T14:54:03.788] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T14:54:03.790] [INFO] default - [0mGET /api/users [31m500 [0m1.855 ms - -[0m
+[2018-08-20T14:54:35.031] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T14:54:35.033] [INFO] default - [0mGET /api/users [31m500 [0m1.746 ms - -[0m
+[2018-08-20T14:54:52.628] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T14:54:52.630] [INFO] default - [0mGET /api/users [31m500 [0m1.564 ms - -[0m
+[2018-08-20T14:55:32.648] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T14:55:32.649] [INFO] default - [0mGET /api/users [31m500 [0m1.457 ms - -[0m
+[2018-08-20T14:56:00.526] [INFO] default - [0mGET /favicon.ico [33m404 [0m0.475 ms - 150[0m
+[2018-08-20T14:56:01.579] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T14:56:01.583] [INFO] default - [0mGET /api/users [31m500 [0m4.007 ms - -[0m
+[2018-08-20T14:56:02.183] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T14:56:02.185] [INFO] default - [0mGET /api/users [31m500 [0m1.217 ms - -[0m
+[2018-08-20T14:56:19.089] [INFO] default - [0mGET / [33m404 [0m0.297 ms - 139[0m
+[2018-08-20T14:56:23.925] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T14:56:23.927] [INFO] default - [0mGET /api/users [31m500 [0m1.345 ms - -[0m
+[2018-08-20T14:59:40.565] [DEBUG] default - [p 11409] Listening at port 8080
+[2018-08-20T14:59:45.378] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T14:59:45.392] [INFO] default - [0mGET /api/users [31m500 [0m12.508 ms - -[0m
+[2018-08-20T15:02:45.595] [DEBUG] default - [p 11450] Listening at port 8080
+[2018-08-20T15:04:57.661] [DEBUG] default - [p 11493] Listening at port 8080
+[2018-08-20T15:05:04.186] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T15:05:04.200] [INFO] default - [0mGET /api/users [31m500 [0m11.947 ms - -[0m
+[2018-08-20T15:06:23.104] [DEBUG] default - [p 11520] Listening at port 8080
+[2018-08-20T15:06:28.506] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T15:06:28.519] [INFO] default - [0mGET /api/users [31m500 [0m10.973 ms - -[0m
+[2018-08-20T15:06:52.971] [DEBUG] default - [p 11537] Listening at port 8080
+[2018-08-20T15:07:10.420] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T15:07:10.434] [INFO] default - [0mGET /api/users [31m500 [0m10.973 ms - -[0m
+[2018-08-20T15:07:10.705] [INFO] default - [0mGET /favicon.ico [33m404 [0m2.047 ms - 150[0m
+[2018-08-20T15:07:10.918] [INFO] default - [0mGET /favicon.ico [33m404 [0m0.422 ms - 150[0m
+[2018-08-20T15:07:11.269] [INFO] default - [0mGET /favicon.ico [33m404 [0m0.374 ms - 150[0m
+[2018-08-20T15:07:15.040] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T15:07:15.043] [INFO] default - [0mGET /api/users [31m500 [0m1.980 ms - -[0m
+[2018-08-20T15:08:01.891] [DEBUG] default - [p 12064] Listening at port 8080
+[2018-08-20T15:08:06.186] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T15:08:06.199] [INFO] default - [0mGET /api/users [31m500 [0m10.839 ms - -[0m
+[2018-08-20T15:19:37.893] [DEBUG] default - [p 12189] Listening at port 8080
+[2018-08-20T15:20:29.929] [DEBUG] default - [p 12207] Listening at port 8080
+[2018-08-20T15:20:38.276] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T15:20:38.289] [INFO] default - [0mGET /api/users [31m500 [0m11.140 ms - -[0m
+[2018-08-20T15:21:14.051] [DEBUG] default - [p 12237] Listening at port 8080
+[2018-08-20T15:21:17.893] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:47:12)
+[2018-08-20T15:21:17.907] [INFO] default - [0mGET /api/users [31m500 [0m10.986 ms - -[0m
+[2018-08-20T15:21:27.568] [DEBUG] default - [p 12253] Listening at port 8080
+[2018-08-20T15:23:30.634] [INFO] default - [0mGET /api/users [0m- [0m- ms - -[0m
+[2018-08-20T16:56:54.015] [DEBUG] default - [p 12294] Listening at port 8080
+[2018-08-20T17:03:58.513] [DEBUG] default - [p 12316] Listening at port 8080
+[2018-08-20T17:04:00.837] [INFO] default - [0mGET /api/users [32m200 [0m6.633 ms - 2[0m
+[2018-08-20T17:04:05.474] [INFO] default - [0mGET /api/users [32m200 [0m1.056 ms - 2[0m
+[2018-08-20T17:04:28.346] [INFO] default - [0mGET /api/users [32m200 [0m0.799 ms - 2[0m
+[2018-08-20T17:05:28.871] [DEBUG] default - [p 12336] Listening at port 8080
+[2018-08-20T17:05:34.411] [INFO] default - [0mGET /api/users [32m200 [0m8.133 ms - 2[0m
+[2018-08-20T17:17:48.764] [INFO] default - [0mGET /api/users [32m200 [0m1.789 ms - 2[0m
+[2018-08-20T17:19:35.611] [DEBUG] default - [p 12369] Listening at port 8080
+[2018-08-20T17:19:44.371] [INFO] default - [0mGET /api/users [32m200 [0m6.698 ms - 2[0m
+[2018-08-20T17:22:47.967] [DEBUG] default - [p 12398] Listening at port 8080
+[2018-08-20T17:33:34.102] [INFO] default - [0mGET /api/users [32m200 [0m15.429 ms - 2[0m
+[2018-08-20T17:39:43.950] [DEBUG] default - [p 12464] Listening at port 8080
+[2018-08-20T17:40:06.417] [DEBUG] default - [p 12478] Listening at port 8080
+[2018-08-20T17:41:05.729] [DEBUG] default - [p 12497] Listening at port 8080
+[2018-08-20T17:43:15.396] [INFO] default - [0mGET /api/users [0m- [0m- ms - -[0m
+[2018-08-20T17:43:17.477] [DEBUG] default - [p 12519] Listening at port 8080
+[2018-08-20T17:43:26.250] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got userSerializer.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at /home/ubuntu/workspace/cartao-service/src/interfaces/http/user/UsersController.js:12:5
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+[2018-08-20T17:43:26.266] [INFO] default - [0mGET /api/users [31m500 [0m12.846 ms - -[0m
+[2018-08-20T18:30:52.394] [DEBUG] default - [p 12576] Listening at port 8080
+[2018-08-20T18:31:01.545] [INFO] default - [0mGET /api/users [32m200 [0m6.670 ms - 2[0m
+[2018-08-20T18:36:17.956] [DEBUG] default - [p 12596] Listening at port 8080
+[2018-08-20T18:36:24.885] [ERROR] default - AwilixResolutionError: Could not resolve 'userService'.
+
+Resolution path: userService
+    at resolve (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:226:23)
+    at Object.get (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:63:32)
+    at router.use.inject (/home/ubuntu/workspace/cartao-service/src/interfaces/http/user/UsersController.js:15:26)
+    at Object.resolve (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/resolvers.js:291:20)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:292:37)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:317:13)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+[2018-08-20T18:36:24.898] [INFO] default - [0mGET /api/users [31m500 [0m11.268 ms - -[0m
+[2018-08-20T18:36:47.203] [DEBUG] default - [p 12614] Listening at port 8080
+[2018-08-20T18:36:55.223] [INFO] default - [0mGET /api/users [32m200 [0m7.396 ms - 2[0m
+[2018-08-20T18:37:19.301] [DEBUG] default - [p 12631] Listening at port 8080
+[2018-08-20T18:37:32.730] [INFO] default - [0mGET /api/users [32m200 [0m7.145 ms - 2[0m
+[2018-08-20T18:43:57.163] [DEBUG] default - [p 12661] Listening at port 8080
+[2018-08-20T18:45:42.768] [DEBUG] default - [p 12690] Listening at port 8080
+[2018-08-20T18:46:08.556] [DEBUG] default - [p 12706] Listening at port 8080
+[2018-08-20T18:47:48.151] [DEBUG] default - [p 12731] Listening at port 8080
+[2018-08-20T19:05:02.463] [DEBUG] default - [p 12832] Listening at port 8080
+[2018-08-20T19:05:37.748] [DEBUG] default - [p 12845] Listening at port 8080
+[2018-08-20T19:05:47.206] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got getAllUsers.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+[2018-08-20T19:05:47.220] [INFO] default - [0mGET /api/users [31m500 [0m11.497 ms - -[0m
+[2018-08-20T19:05:51.773] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got getAllUsers.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+[2018-08-20T19:05:51.777] [INFO] default - [0mGET /api/users [31m500 [0m2.178 ms - -[0m
+[2018-08-20T19:13:08.199] [DEBUG] default - [p 13020] Listening at port 8080
+[2018-08-20T19:13:16.420] [ERROR] default - AwilixTypeError: build: expected targetOrResolver to be a function or class, but got getAllUsers.
+    at Function.assert (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/errors.js:83:19)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:297:34)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+[2018-08-20T19:13:16.434] [INFO] default - [0mGET /api/users [31m500 [0m12.611 ms - -[0m
+[2018-08-20T19:19:58.456] [DEBUG] default - [p 13050] Listening at port 8080
+[2018-08-20T19:20:03.178] [INFO] default - [0mGET /api/users [32m200 [0m6.354 ms - 2[0m
+[2018-08-20T19:39:42.851] [DEBUG] default - [p 13132] Listening at port 8080
+[2018-08-20T19:39:48.404] [ERROR] default - AwilixResolutionError: Could not resolve 'usersRepository'.
+
+Resolution path: getAllUsers -> usersRepository
+    at resolve (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:226:23)
+    at Object.get (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:63:32)
+    at new GetAllUsers (/home/ubuntu/workspace/cartao-service/src/app/user/GetAllUsers.js:4:17)
+    at newClass (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/resolvers.js:291:20)
+    at resolve (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:236:41)
+    at Object.get (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:63:32)
+    at router.get.inject (/home/ubuntu/workspace/cartao-service/src/interfaces/http/user/UsersController.js:12:31)
+    at Object.resolve (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/resolvers.js:291:20)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:292:37)
+[2018-08-20T19:39:48.418] [INFO] default - [0mGET /api/users [31m500 [0m12.177 ms - -[0m
+[2018-08-20T19:43:46.537] [DEBUG] default - [p 13235] Listening at port 8080
+[2018-08-20T19:43:50.354] [ERROR] default - AwilixResolutionError: Could not resolve 'UserModel'.
+
+Resolution path: getAllUsers -> usersRepository -> UserModel
+    at resolve (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:226:23)
+    at Object.get (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:63:32)
+    at new UsersRepository (/home/ubuntu/workspace/cartao-service/src/infra/user/UsersRepository.js:5:17)
+    at newClass (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/resolvers.js:291:20)
+    at resolve (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:242:45)
+    at Object.get (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:63:32)
+    at new GetAllUsers (/home/ubuntu/workspace/cartao-service/src/app/user/GetAllUsers.js:4:17)
+    at newClass (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/resolvers.js:291:20)
+[2018-08-20T19:43:50.367] [INFO] default - [0mGET /api/users [31m500 [0m11.133 ms - -[0m
+[2018-08-20T19:44:18.916] [DEBUG] default - [p 13250] Listening at port 8080
+[2018-08-20T19:44:21.560] [INFO] default - [0mGET /api/users [32m200 [0m6.846 ms - 2[0m
+[2018-08-20T19:46:27.546] [DEBUG] default - [p 13294] Listening at port 8080
+[2018-08-20T19:46:34.870] [ERROR] default - TypeError: Cannot read property 'on' of undefined
+    at /home/ubuntu/workspace/cartao-service/src/interfaces/http/user/UsersController.js:19:8
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:105:25)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+[2018-08-20T19:46:34.884] [INFO] default - [0mGET /api/users [31m500 [0m12.300 ms - -[0m
+[2018-08-20T19:47:00.753] [DEBUG] default - [p 13313] Listening at port 8080
+[2018-08-20T19:47:03.478] [ERROR] default - ReferenceError: SUCCESS is not defined
+    at /home/ubuntu/workspace/cartao-service/src/interfaces/http/user/UsersController.js:18:11
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:105:25)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+[2018-08-20T19:47:03.493] [INFO] default - [0mGET /api/users [31m500 [0m14.049 ms - -[0m
+[2018-08-20T19:47:40.945] [DEBUG] default - [p 13336] Listening at port 8080
+[2018-08-20T19:47:46.012] [INFO] default - [0mGET /api/users [32m200 [0m11.003 ms - 73[0m
+[2018-08-20T19:48:17.739] [DEBUG] default - [p 13352] Listening at port 8080
+[2018-08-20T19:48:19.929] [INFO] default - [0mGET /api/users [32m200 [0m10.274 ms - 73[0m
+[2018-08-20T19:49:21.860] [DEBUG] default - [p 13371] Listening at port 8080
+[2018-08-20T20:11:33.750] [DEBUG] default - [p 13431] Listening at port 8080
+[2018-08-20T20:14:16.322] [DEBUG] default - [p 13449] Listening at port 8080
+[2018-08-20T20:14:22.747] [ERROR] default - TypeError: "listener" argument must be a function
+    at _addListener (events.js:239:11)
+    at GetAllUsers.addListener (events.js:297:10)
+    at GetAllUsers.on (/home/ubuntu/workspace/cartao-service/src/app/Operation.js:13:19)
+    at index (/home/ubuntu/workspace/cartao-service/src/interfaces/http/user/UsersController.js:46:8)
+    at Object.resolve (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/resolvers.js:291:20)
+    at Object.build (/home/ubuntu/workspace/cartao-service/node_modules/awilix/lib/container.js:292:37)
+    at middlewareFactoryHandler (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:104:34)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:112:3)
+[2018-08-20T20:14:22.761] [INFO] default - [0mGET /api/users [31m500 [0m11.722 ms - -[0m
+[2018-08-20T20:15:33.232] [DEBUG] default - [p 13465] Listening at port 8080
+[2018-08-20T20:22:08.413] [DEBUG] default - [p 13515] Listening at port 8080
+[2018-08-20T20:25:36.820] [DEBUG] default - [p 13550] Listening at port 8080
+[2018-08-20T20:25:49.036] [DEBUG] default - [p 13564] Listening at port 8080
+[2018-08-20T20:25:56.114] [ERROR] default - TypeError: Cannot read property 'outputs' of undefined
+    at Object.index (/home/ubuntu/workspace/cartao-service/src/interfaces/http/user/UsersController.js:12:48)
+    at memberInvoker (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:83:45)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+[2018-08-20T20:25:56.128] [INFO] default - [0mGET /api/users [31m500 [0m11.714 ms - -[0m
+[2018-08-20T20:26:31.360] [DEBUG] default - [p 13582] Listening at port 8080
+[2018-08-20T20:26:33.606] [ERROR] default - ReferenceError: getAllUsers is not defined
+    at Object.index (/home/ubuntu/workspace/cartao-service/src/interfaces/http/user/UsersController.js:10:39)
+    at memberInvoker (/home/ubuntu/workspace/cartao-service/node_modules/awilix-express/lib/invokers.js:83:45)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/ubuntu/workspace/cartao-service/node_modules/express/lib/router/index.js:174:3)
+[2018-08-20T20:26:33.620] [INFO] default - [0mGET /api/users [31m500 [0m12.127 ms - -[0m
+[2018-08-20T20:27:40.654] [DEBUG] default - [p 13599] Listening at port 8080
+[2018-08-20T20:27:45.126] [INFO] default - [0mGET /api/users [32m200 [0m9.913 ms - 73[0m
+[2018-08-20T20:28:10.843] [DEBUG] default - [p 13614] Listening at port 8080
+[2018-08-20T20:28:14.787] [INFO] default - [0mGET /api/users [32m200 [0m11.373 ms - 73[0m
+[2018-08-20T20:28:31.866] [DEBUG] default - [p 13628] Listening at port 8080
+[2018-08-20T20:28:33.923] [INFO] default - [0mGET /api/users [32m200 [0m11.193 ms - 73[0m
