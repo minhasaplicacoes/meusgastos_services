@@ -7,7 +7,6 @@ const { makeInvoker } = require('awilix-express')
 function makeAPI({ getAllUsers, userSerializer }) {
   return {
      listAll(req, res, next) {
-        console.log("Chegou aqui....",getAllUsers,userSerializer)
         const { SUCCESS, ERROR } = getAllUsers.outputs;
     
         getAllUsers
