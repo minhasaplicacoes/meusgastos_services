@@ -1,24 +1,24 @@
 const { createContainer, asClass, asFunction, asValue } = require('awilix');
 const { scopePerRequest } = require('awilix-express');
 
-const Application = require('./app/Application');
+const Application = require('./application/Application');
 const Server = require('./interfaces/http/Server');
 const router = require('./interfaces/http/router');
 
-const logger = require('./infra/logging/logger');
+const logger = require('./infrastructure/logging/logger');
 
-const config = require('../config');
+const config = require('./infrastructure/config');
 const loggerMiddleware = require('./interfaces/http/logging/loggerMiddleware');
 const errorHandler = require('./interfaces/http/errors/errorHandler');
 const devErrorHandler = require('./interfaces/http/errors/devErrorHandler');
 const UserSerializer = require('./interfaces/http/user/UserSerializer');
 
-const UsersRepository = require('./infra/user/UsersRepository');
+const UsersRepository = require('./infrastructure/user/UsersRepository');
 
 
 const {
   GetAllUsers,
-} = require('./app/user');
+} = require('./application/user');
 
 
 const container = createContainer();
